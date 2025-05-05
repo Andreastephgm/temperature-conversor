@@ -1,0 +1,82 @@
+body {
+    background-color: #000;
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 25px rgba(173, 255, 47, 0.2);
+    border-radius: 12px;
+    background-color: #111;
+    animation: fadeIn 1.5s ease;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    animation: fadeIn 1.5s ease;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(173, 255, 47, 0.2);
+    background-color: #1a1a1a;
+    color: #adff2f;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+input::placeholder {
+    color: #87ff87;
+}
+
+input:focus, select:focus {
+    outline: none;
+    box-shadow: 0 0 15px greenyellow;
+    transform: scale(1.02);
+}
+
+button {
+    background-color: #222;
+    color: greenyellow;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2c2c2c;
+    box-shadow: 0 0 20px greenyellow;
+    transform: scale(1.03);
+}
+
+.result {
+    margin-top: 25px;
+    font-weight: bold;
+    color: greenyellow;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    font-size: 1.2rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+
