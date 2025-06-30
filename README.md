@@ -13,6 +13,12 @@ A **simple** temperature converter application that allows you to convert temper
 
 ---
 
+## Proyect
+
+<img width="650" alt="Screenshot 2025-06-30 at 5 26 54 PM" src="https://github.com/user-attachments/assets/4285268f-25b2-47e1-8b11-41ca7e4aa894" />
+
+---
+
 ## Technologies Used
 
 - JavaScript (or specify your language/framework)  
